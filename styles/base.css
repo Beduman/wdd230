@@ -1,0 +1,11 @@
+.header-grid{
+    display: grid;
+    grid-template-rows: 1fr, 1fr, 1fr;
+}
+
+.home-link{
+    grid-row: 1/2;
+}
+.site-plan-link{
+    grid-row: 2/3;
+}
