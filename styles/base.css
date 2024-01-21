@@ -2,8 +2,11 @@ body{
     text-align: center;
 }
 
-h1, h2{
+h1{
     font-size: 3rem;
+}
+h2{
+    font-size: 2rem;
 }
 .header-class{
     background-color: #989898;
