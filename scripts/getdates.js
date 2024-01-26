@@ -1,2 +1,2 @@
-const date = new date
+const date = new date;
 let currentYear = date.getFullYear();
