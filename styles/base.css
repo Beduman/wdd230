@@ -8,6 +8,9 @@ h1{
 h2{
     font-size: 2rem;
 }
+h1::first-letter,h2::first-letter,h3::first-letter{
+    color:blueviolet;
+}
 .header-class{
     background-color: #989898;
 }
