@@ -9,19 +9,20 @@ h2{
     font-size: 2rem;
 }
 h1::first-letter,h2::first-letter,h3::first-letter{
-    color:blueviolet;
+    color:2667FF;
 }
 .header-class{
-    background-color: #989898;
+    background-color: #847979;
+    color: whitesmoke;
 }
 .main-image{
     width: 20%;
     display: border;
-    border: 5px, solid, blue;
+    border: 5px, solid, #2667FF;
     border-radius: 10px;
 }
 footer{
-    background-color: #989898;
+    background-color: #38369A;
 }
 .nav-grid{
     font-size: 1.5rem;
@@ -30,7 +31,7 @@ footer{
     grid-template-columns: 1fr;
     grid-template-rows: 1fr, 1fr, 1fr;
     align-items: center;
-    border: 5px, solid, blue;
+    border: 5px, solid, #2667FF;
     border-radius: 10px;
 }
 .home-link{
@@ -41,4 +42,18 @@ footer{
     grid-column: 1/2;
     grid-row: 2/3;
 }
-
+.cardGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+    padding:30px;
+}
+.card{
+    border: 5px solid #38369A;
+}
+#learningActivities{
+    grid-column: 2/3;
+}
+#information{
+    grid-column: 3/4;
+}
