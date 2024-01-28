@@ -24,23 +24,12 @@ h1::first-letter,h2::first-letter,h3::first-letter{
 footer{
     background-color: #38369A;
 }
-.nav-grid{
+nav{
     font-size: 1.5rem;
     background-color:aliceblue;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr, 1fr, 1fr;
     align-items: center;
     border: 5px, solid, #2667FF;
     border-radius: 10px;
-}
-.home-link{
-    grid-column: 1/2;
-    grid-row: 1/2;
-}
-.site-plan-link{
-    grid-column: 1/2;
-    grid-row: 2/3;
 }
 .cardGrid{
     display: grid;
@@ -56,4 +45,13 @@ footer{
 }
 #information{
     grid-column: 3/4;
+}
+
+@media (min-width: 640px) {
+	nav ul {
+		display: flex;
+	}
+	nav ul li {
+		flex: 1 1 100%;
+	}
 }
