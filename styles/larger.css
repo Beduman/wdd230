@@ -40,5 +40,10 @@
     #phoneMenu.show::before {
         content: "X";
     }
-    
+    .navigation li {
+        display: none;
+    }
+    .show li {
+        display: block;
+    }
 }
