@@ -1,7 +1,35 @@
 body {
     text-align: center;
 }
+header{
+    background-color: #90d7ff;
+    margin: 0px;
+}
 .heroImage{
     width: 50%;
-    border: 10px solid #320E3B;
+    border: 10px double #320E3B;
+    margin: 0px;
+}
+.maincontent{
+    flex-wrap: nowrap;
+    display: flex;
+    flex-direction: row;
+}
+.weatherCard{
+    border: 5px solid #320E3B;
+    flex: 1;
+    margin: 10px;
+}
+.eventsCard{
+    border: 5px solid #320E3B;
+    margin: 10px;
+    flex: 2;
+}
+.spotlightCard{
+    border: 5px solid #320E3B;
+    margin: 10px;
+    flex: 1;
+}
+footer{
+    background-color: #90d7ff;
 }
