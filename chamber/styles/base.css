@@ -11,24 +11,19 @@ header{
     margin: 0px;
 }
 .maincontent{
-    flex-wrap: nowrap;
-    display: flex;
-    flex-direction: row;
+    flex: 1 1 100%;
 }
 .weatherCard{
     border: 5px solid #320E3B;
-    flex: 1;
     margin: 10px;
 }
 .eventsCard{
     border: 5px solid #320E3B;
     margin: 10px;
-    flex: 2;
 }
 .spotlightCard{
     border: 5px solid #320E3B;
     margin: 10px;
-    flex: 1;
 }
 footer{
     background-color: #90d7ff;
