@@ -1,8 +1,10 @@
 body {
     text-align: center;
+    background-color: #90d7ff;
 }
 header{
-    background-color: #90d7ff;
+    background-color: #320E3B;
+    color: white;
     margin: 0px;
 }
 .heroImage{
@@ -10,21 +12,26 @@ header{
     border: 10px double #320E3B;
     margin: 0px;
 }
-.maincontent{
+.mainContent{
     flex: 1 1 100%;
+    display: flex;
 }
 .weatherCard{
     border: 5px solid #320E3B;
     margin: 10px;
+    flex: 1;
 }
 .eventsCard{
     border: 5px solid #320E3B;
     margin: 10px;
+    flex: 1;
 }
 .spotlightCard{
     border: 5px solid #320E3B;
     margin: 10px;
+    flex: 1;
 }
 footer{
-    background-color: #90d7ff;
+    background-color: #320e3b;
+    color: white;
 }

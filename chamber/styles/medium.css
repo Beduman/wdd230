@@ -1,0 +1,8 @@
+@media screen and (max-width: 640px) {
+    body{
+        margin: 0px;
+    }  
+    .mainContet{
+        flex-direction: column;
+    }
+}
