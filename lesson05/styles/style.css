@@ -32,14 +32,6 @@ button {
 
 button {
 	margin: 0.5rem;
-    background-color: #0a5ed7;
-    color: white;
-    border:#0a5ed7
-}
-button:hover {
-    background-color: #3a7edf;
-    color: white;
-    border:#0a5ed7
 }
 
 .delete {
@@ -49,9 +41,6 @@ button:hover {
 .input {
 	display: flex;
 	gap: 1rem;
-}
-input:focus {
-    /* background-color: #b2d8b2; */
 }
 
 .list {
