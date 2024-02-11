@@ -35,3 +35,12 @@ footer{
     background-color: #320e3b;
     color: white;
 }
+#mode {
+	position: absolute;
+    color: #90d7ff;
+	top: 1rem;
+	right: 1rem;
+	font-size: 3rem;
+	cursor: pointer;
+	font-size: 2rem;
+}
