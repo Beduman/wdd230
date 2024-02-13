@@ -1,8 +1,26 @@
 @media screen and (max-width: 640px) {
-    body{
-        margin: 0px;
-    }  
-    .mainContet{
-        flex-direction: column;
+    #phoneMenu {
+        display: block;
+        font-size: 2rem;
+        font-weight:700;
+        text-decoration: none;
+        padding: .5rem .75rem;
+        background-color: #eee;
+        color: #000;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+    }
+    #phoneMenu::before {
+        content: "≡";
+    }
+    #phoneMenu.show::before {
+        content: "X";
+    }
+    .navigation li {
+        display: none;
+    }
+    .show li {
+        display: block;
     }
 }
