@@ -6,6 +6,7 @@ header{
     background-color: #17c3b2;
     color: white;
     margin: 0px;
+    padding: 0px;
 }
 .heroImage{
     width: 50%;
@@ -37,7 +38,8 @@ footer{
 }
 #mode {
 	position: absolute;
-    color: #90d7ff;
+    background-color: #9395d3;
+    color: #000807;
 	top: 1rem;
 	right: 1rem;
 	font-size: 3rem;
