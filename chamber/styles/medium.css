@@ -23,4 +23,7 @@
     .show li {
         display: block;
     }
+    .mainContent{
+        flex-direction: column;
+    }
 }
