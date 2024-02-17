@@ -11,6 +11,9 @@
     .navigation li {
         display: none;
     }
+    .heroImage {
+        
+    }
 }
 
 @media screen and (max-width: 640px) {

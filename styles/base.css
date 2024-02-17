@@ -22,7 +22,7 @@ h1::first-letter,h2::first-letter,h3::first-letter{
     border-radius: 10px;
 }
 footer{
-    background-color: #38369A;
+    background-color: #847979;
 }
 nav{
     font-size: 25px;
@@ -46,4 +46,6 @@ nav{
 #information{
     grid-column: 3/4;
 }
+.heroImage{
 
+}
