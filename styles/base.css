@@ -52,6 +52,17 @@ nav{
 #information{
     grid-column: 3/4;
 }
-.heroImage{
+.hero{
+    position: relative;
+}
+.hero img{
     width: 80%;
+}
+.heroText{
+    color: white;
+    background-color: black;
+    opacity: .7;
+    position: absolute;
+    top: 50px;
+    left: 30%;
 }
