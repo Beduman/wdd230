@@ -9,16 +9,15 @@ h2{
     font-size: 2rem;
 }
 h1::first-letter,h2::first-letter,h3::first-letter{
-    color:2667FF;
+    color:#2667FF;
 }
 .header-class{
     background-color: #847979;
     color: whitesmoke;
 }
 .main-image{
-    width: 20%;
-    display: border;
-    border: 5px, solid, #2667FF;
+    width: 10%;
+    border: 5px solid #2667FF;
     border-radius: 10px;
 }
 footer{
