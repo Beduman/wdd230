@@ -17,7 +17,7 @@ h1::first-letter,h2::first-letter,h3::first-letter{
 }
 .main-image{
     width: 10%;
-    border: 5px solid #2667FF;
+    border: 5px solid #38369A;
     border-radius: 10px;
 }
 footer{
@@ -27,8 +27,15 @@ nav{
     font-size: 25px;
     background-color:aliceblue;
     align-items: center;
-    border: 5px, solid, #2667FF;
+    border: 5px solid #38369A;
     border-radius: 10px;
+    padding-top: 10px;
+}
+.navButton{
+    background-color:#38369A;
+    color: aliceblue;
+    padding: 10px;
+    padding-bottom: 20px;
 }
 .cardGrid{
     display: grid;
