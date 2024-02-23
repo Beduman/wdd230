@@ -8,6 +8,9 @@ header{
     margin: 0px;
     padding: 0px;
 }
+h1 {
+    margin: 0px;
+}
 .heroImage{
     width: 50%;
     border: 10px double #9395d3;
@@ -40,7 +43,7 @@ footer{
 	position: absolute;
     background-color: #9395d3;
     color: #000807;
-	top: 1rem;
+	top: .5rem;
 	right: 1rem;
 	font-size: 3rem;
 	cursor: pointer;
