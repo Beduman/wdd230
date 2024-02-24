@@ -49,3 +49,15 @@ footer{
 	cursor: pointer;
 	font-size: 2rem;
 }
+.sideMenu{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.sideMenuBox1{
+    border: 5px solid #17c3b2;
+    grid-row: 1/2;
+}
+.sideMenuBox2{
+    border: 5px solid #17c3b2;
+    grid-row: 2/3;
+}

@@ -2,7 +2,7 @@
 const visitsDisplay = document.querySelector(".visit");
 
 // Get the stored VALUE for the numVisit-ls KEY in localStorage if it exists. If the numVisit KEY is missing, then assign 0 to the numVisits variable.
-let numVisit = Number(window.localStorage.getItem("numVisit-ls")) || 0;
+let numVisit = Number(window.localStorage.getItem("numVisit-ls")) || 1;
 
 // Determine if this is the first visit or display the number of visits. We wrote this example backwards in order for you to think deeply about the logic.
 if (numVisit !== 0) {
