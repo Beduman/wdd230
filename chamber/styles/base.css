@@ -1,10 +1,10 @@
 body {
     text-align: center;
-    background-color: #fef9ef;
+    background-color: aliceblue;
 }
 header{
     background-color: #17c3b2;
-    color: white;
+    color: black;
     margin: 0px;
     padding: 0px;
 }
@@ -37,7 +37,7 @@ h1 {
 }
 footer{
     background-color: #17c3b2;
-    color: white;
+    color: black;
 }
 #mode {
 	position: absolute;
