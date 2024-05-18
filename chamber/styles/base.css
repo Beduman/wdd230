@@ -51,8 +51,8 @@ footer{
 }
 .sideMenu{
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
 }
 .sideMenuBox1{
     border: 5px solid #17c3b2;
@@ -65,5 +65,18 @@ footer{
     grid-column: 1/2;
 }
 .discoverpictures{
+    grid-row: 1/5;
     grid-column: 2/3;
+}
+#desert{
+    grid-row: 1/2;
+}
+#homes{
+    grid-row: 2/3;
+}
+#view{
+    grid-row: 3/4;
+}
+#copperSky{
+    grid-row: 4/5;
 }
