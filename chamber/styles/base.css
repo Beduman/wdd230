@@ -53,6 +53,7 @@ footer{
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr;
+    gap: 10px;
 }
 .sideMenuBox1{
     border: 5px solid #17c3b2;
@@ -64,19 +65,12 @@ footer{
     grid-row: 2/3;
     grid-column: 1/2;
 }
-.discoverpictures{
+
+.discoverPictures{
+    justify-content: center;
     grid-row: 1/5;
     grid-column: 2/3;
 }
-#desert{
-    grid-row: 1/2;
-}
-#homes{
-    grid-row: 2/3;
-}
-#view{
-    grid-row: 3/4;
-}
-#copperSky{
-    grid-row: 4/5;
+.discoverPictures img{
+    max-width: 60%;
 }
