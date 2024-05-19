@@ -3,11 +3,10 @@ const msToDays = 84600000;
 // today's date
 const theDateToday = new Date();
 
-function getLastModified() {
-    const lastModified = new Date(document.lastModified).toGMTString();
-    document.getElementById("lastModified").innerHTML = lastModified;
-}
-getLastModified();
+const lastModified = new Date(document.lastModified).toGMTString();
+document.getElementById("lastModified").innerHTML = lastModified;
+
+
 
 
 const visitsDisplay = document.querySelector("#lastVisited");
