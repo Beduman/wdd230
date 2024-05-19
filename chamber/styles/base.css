@@ -52,8 +52,8 @@ footer{
 .sideMenu{
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
+    grid-template-columns: 1fr 2fr;
+    gap: 30px;
 }
 .sideMenuBox1{
     border: 5px solid #17c3b2;
