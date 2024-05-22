@@ -26,4 +26,30 @@
     .mainContent{
         flex-direction: column;
     }
+
+    .sideMenu{
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr; 
+    }
+    .sideMenuBox1{
+        border: 5px solid #17c3b2;
+        justify-self: center;
+        grid-row: 1/2;
+        grid-column: 1/2;
+    }
+    .sideMenuBox2{
+        border: 5px solid #17c3b2;
+        justify-self: center;
+        grid-row: 2/3;
+        grid-column: 1/2;
+    }
+    
+    .discoverPictures{
+        justify-content: center;
+        grid-row: 3/6;
+        grid-column: 1/2;
+    }
+    .discoverPictures img{
+        max-width: 80%;
+    }
 }
