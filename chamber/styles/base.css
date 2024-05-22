@@ -73,4 +73,9 @@ footer{
 }
 .discoverPictures img{
     max-width: 60%;
+    
+}
+.discoverPictures img:hover{
+    transform: scale(1.1);
+    transition: 1s;
 }
