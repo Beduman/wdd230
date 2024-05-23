@@ -1,6 +1,7 @@
 const kp1 = document.querySelector("#password");
 const kp2 = document.querySelector("#password2");
 const message = document.querySelector("#formmessage");
+const submitbutton = document.querySelector("#submitButton");
 
 kp2.addEventListener("focusout", checkSame);
 
@@ -28,4 +29,10 @@ range.addEventListener('input', displayRatingValue);
 
 function displayRatingValue() {
     rangevalue.innerHTML = range.value;
+}
+
+submitbutton.addEventListener('click'), () => {
+	if (kp1 == kp2) {
+		window.location.href = "record.html";
+	}
 }
