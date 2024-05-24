@@ -14,7 +14,9 @@ input:hover{
     border: 3px solid #38369A;
 }
 form:hover{
-    background-color: aliceblue;
+    background-color: white;
+    transform: scale(1.08);
+    transition: .5s;
 }
 #r {
     border: 3px solid black;
