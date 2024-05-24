@@ -1,6 +1,9 @@
 :root{
     background-color: aliceblue;
+    padding: 5px;
+    color:black;
 }
+
 .formTest {
     border: 5px solid #38369A;
     border-radius: 10px;
@@ -9,9 +12,7 @@
 input{
     border: 2px solid black;
 }
-input:required{
-    background-color: rgba(255, 37, 37, 0.212);
-}
+
 
 input:hover{
     border: 3px solid #38369A;
