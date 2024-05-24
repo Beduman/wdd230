@@ -40,6 +40,10 @@ nav{
     padding: 10px;
     padding-bottom: 20px;
 }
+.navButton:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
 .cardGrid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;

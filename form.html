@@ -40,16 +40,16 @@
 </nav>
 <main>
     <h1>
-        Form
+        Form Practice
     </h1>
     <div id="formmessage"></div>
-    <form method="get" action="record.html">
+    <form class="formTest" method="get" action="record.html">
         <fieldset>
             <legend>Applicant Info</legend>
-            <label>Username <input type="text" name="username" required> </label>
-            <label>Password <input type="password" id="password" name="password" required> </label>
+            <label>Username <input type="text" id="username" name="username" required> </label>
+            <label>Password <input type="password" id="password" name="password" pattern="{8,20}" required> </label>
             <label>Repeat Password (Verification) <input type="password" id="password2" name="passwordV"> </label>
-            <label>Email <input type="email" name="email" placeholder="name@byui.edu"></label>
+            <label>Email <input type="email" name="email" placeholder="name@byui.edu" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$"></label>
         </fieldset>
         <label>Page Rating<div id="rangevalue">0</div><input type="range" id="r" name="r" min="0" max="10" value="0" step="1" list="pagerating">
         <datalist id="pagerating">

@@ -1,0 +1,25 @@
+.formTest {
+    border: 5px solid #38369A;
+    border-radius: 10px;
+}
+
+input{
+    border: 2px solid black;
+}
+input:required{
+    background-color: rgba(255, 37, 37, 0.212);
+}
+
+input:hover{
+    border: 3px solid #38369A;
+}
+form:hover{
+    background-color: aliceblue;
+}
+#r {
+    border: 3px solid black;
+}
+#submitButton:hover{
+    transform: scale(1.1);
+    transition: .3s;
+}
