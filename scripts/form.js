@@ -30,9 +30,3 @@ range.addEventListener('input', displayRatingValue);
 function displayRatingValue() {
     rangevalue.innerHTML = range.value;
 }
-
-submitbutton.addEventListener('click'), () => {
-	if (kp1 == kp2) {
-		window.location.href = "record.html";
-	}
-}

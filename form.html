@@ -13,6 +13,7 @@
     <meta property="og:description" content="Braden Hunsaker, WDD 230 - Web Frontend Development course assignment portal">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/form.css">
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="icon" href="images/favicon.ico">
 </head>
@@ -42,30 +43,29 @@
         Form
     </h1>
     <div id="formmessage"></div>
-    <form method="get" action="thanks.html">
+    <form method="get" action="record.html">
         <fieldset>
             <legend>Applicant Info</legend>
             <label>Username <input type="text" name="username" required> </label>
-            <label>Password <input type="text" id="password" name="password" required> </label>
-            <label>Repeat Password (Verification) <input type="text" id="password2" name="passwordV"> </label>
-            <label>Email <input type="text" name="email" placeholder="name@byui.edu"></label>
+            <label>Password <input type="password" id="password" name="password" required> </label>
+            <label>Repeat Password (Verification) <input type="password" id="password2" name="passwordV"> </label>
+            <label>Email <input type="email" name="email" placeholder="name@byui.edu"></label>
         </fieldset>
-        <div id="rangevalue">0</div>
-        <input type="range" id="r" name="r" min="0" max="10" value="0" step="1" list="pagerating">
-    <datalist id="pagerating">
-	    <option value="0">0</option>
-	    <option value="1">1</option>
-	    <option value="2">2</option>
-	    <option value="3">3</option>
-	    <option value="4">4</option>
-	    <option value="5">5</option>
-        <option value="0">6</option>
-	    <option value="1">7</option>
-	    <option value="2">8</option>
-	    <option value="3">9</option>
-	    <option value="4">10</option>
-    </datalist>
-        <input type="submit" id="submitButton" value="submit form">
+        <label>Page Rating<div id="rangevalue">0</div><input type="range" id="r" name="r" min="0" max="10" value="0" step="1" list="pagerating">
+        <datalist id="pagerating">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="0">6</option>
+            <option value="1">7</option>
+            <option value="2">8</option>
+            <option value="3">9</option>
+            <option value="4">10</option>
+        </datalist>
+        <input id="submitButton" type="submit"  value="submit form">
     </form>
 </main>
 <footer>
