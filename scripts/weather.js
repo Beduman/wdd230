@@ -1,4 +1,4 @@
-const url = 'https://api.openweathermap.org/data/2.5/weather?lat=33&lon=112&appid=df85fd3eae7d9b8211a7c6efca0497ad'
+const url = 'https://api.openweathermap.org/data/2.5/weather?lat=33&lon=112&units=imperial&appid=df85fd3eae7d9b8211a7c6efca0497ad'
 
 // select HTML elements in the document
 
@@ -23,12 +23,10 @@ function displayResults(data) {
   const weatherIcon = document.querySelector("#weather-icon");
   const captionDesc = document.querySelector("#weather-description");
 
-  // Format temperature to show zero decimal points
-  const formattedTemp = data.main.temp.toFixed(0);
   // Display current temperature
-  currentTemp.innerHTML = `${formattedTemp} &deg;F`;
+  currentTemp.innerHTML = `${data.main.temp} &deg;F`;
 
-  // Display weather icon and description
+  // Weather icon and description
   data.weather.forEach((weatherEvent) => {
       const iconsrc = `https://openweathermap.org/img/wn/${weatherEvent.icon}@2x.png`;
       let desc = weatherEvent.description;
