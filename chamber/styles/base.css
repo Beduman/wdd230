@@ -79,3 +79,13 @@ footer{
     transform: scale(1.1);
     transition: 1s;
 }
+label{
+    padding: 10px;
+    margin: 10px;
+}
+.joinForm{
+    grid-column: 1/2;
+}
+.memberBen{
+    grid-column: 2/3;
+}
