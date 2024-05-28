@@ -7,7 +7,7 @@ modeButton.addEventListener("click", () => {
 		main.style.color = "#fff";
 		modeButton.textContent = "Light Mode";
 	} else {
-		main.style.background = "#fef9ef";
+		main.style.background = "#F0F8FF";
 		main.style.color = "#000";
 		modeButton.textContent = "Dark Mode";
 	}

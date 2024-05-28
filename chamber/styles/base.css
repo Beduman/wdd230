@@ -8,6 +8,21 @@ header{
     margin: 0px;
     padding: 0px;
 }
+.navButton{
+    font-size: 24px;
+    border-left: 3px solid #9395d3;
+    border-right: 3px solid #9395d3;
+    padding: 16px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: black;
+
+}
+.navButton:hover{
+    transform: scale(1.1);
+    transition: .3s;
+    background-color: #ffcb77;
+}
 h1 {
     margin: 0px;
 }
