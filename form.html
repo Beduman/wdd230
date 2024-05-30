@@ -30,7 +30,7 @@
         <a class="navButton" href="https://www.byui.edu/">BYU Idaho</a>
         <a class="navButton" href="https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/2?lang=eng">Favorite Scripture</a>
         <a class="navButton" href="form.html">Form Build</a>
-        
+
         <ul class="navigation">
             <li><a href="#">Home</a></li>
             <li><a href="lesson03/chamber-site-plan.html">Site Plan</a></li>
@@ -50,8 +50,8 @@
             <legend>Applicant Info</legend>
             <label>Username <input type="text" id="username" name="username" required> </label>
             <label>Password <input type="password" id="password" name="password" pattern="{8,20}" required> </label>
-            <label>Repeat Password (Verification) <input type="password" id="password2" name="passwordV"> </label>
-            <label>Email <input type="email" name="email" title="Please enter a valid email address" placeholder="name@byui.edu" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$"></label>
+            <label>Repeat Password (Verification) <input type="password" id="password2" name="password2" required> </label>
+            <label>Email <input type="email" id="email" name="email" title="Please enter a valid email address" placeholder="name@byui.edu" pattern="[a-zA-Z0-9._%+-][+@byui.edu$]" required></label>
             <label>Page Rating<div id="rangevalue">0</div><input type="range" id="r" name="r" min="0" max="10" value="0" step="1" list="pagerating"></label>
                 <datalist id="pagerating">
                     <option value="0">0</option>
@@ -68,7 +68,7 @@
                 </datalist>
         </fieldset>
         
-        <input id="submitButton" type="submit"  value="submit form">
+        <input id="submitButton" name="submitButton" type="submit"  value="submit form">
     </form>
 </main>
 <footer>
