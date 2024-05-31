@@ -52,4 +52,7 @@
     .discoverPictures img{
         max-width: 80%;
     }
+    .memberBen{
+        grid-column: 1/2;
+    }
 }
