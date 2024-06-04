@@ -2,12 +2,7 @@ body {
     text-align: center;
     background-color: aliceblue;
 }
-header{
-    background-color: #17c3b2;
-    color: black;
-    margin: 0px;
-    padding: 0px;
-}
+
 .navButton{
     font-size: 24px;
     border-left: 3px solid #9395d3;
@@ -19,7 +14,6 @@ header{
 
 }
 .navButton:hover{
-    transform: scale(1.1);
     transition: .3s;
     background-color: #ffcb77;
 }
@@ -54,16 +48,37 @@ footer{
     background-color: #17c3b2;
     color: black;
 }
+.titleGrid{
+    background-color: #17c3b2;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 75px 1fr;
+}
+nav{
+    grid-column: 1/4;
+    grid-row: 2/3;
+}
+header{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background-color: #17c3b2;
+    color: black;
+    margin: 0px;
+    padding: 0px;
+}
 #mode {
-	position: absolute;
+    grid-column: 3/4;
+    grid-row: 1/2;
     background-color: #9395d3;
     color: #000807;
 	top: 0px;
 	right: 0px;
-	font-size: 3rem;
 	cursor: pointer;
 	font-size: 2rem;
+    margin-bottom: 0px;
+    border: 5px solid #000807;
 }
+
 .sideMenu{
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
