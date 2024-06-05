@@ -119,3 +119,7 @@ label{
 .memberBen{
     grid-column: 2/3;
 }
+#directoryImg{
+    max-width: 80%;
+    border: 5px solid #9395d3;
+}

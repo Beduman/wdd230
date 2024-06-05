@@ -4,7 +4,8 @@ async function getData() {
 try {
   const response = await fetch(url);  
   const data = await response.json();
-  displayMembers(data.members);
+  displayMembers(data);
+  console.log(data)
     }
     catch (error) {
         console.error("Error:", error);
