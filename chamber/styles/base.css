@@ -29,6 +29,16 @@ h1 {
     flex: 1 1 100%;
     display: flex;
 }
+.joinButton{
+    font-size: x-large;
+    padding: 7px;
+    border: 5px solid #9395d3;
+    margin: 10px;
+}
+.joinButton:hover{
+    background-color: #ffcb77;
+    transition: .5s;
+}
 .weatherCard{
     border: 5px solid #9395d3;
     margin: 10px;
