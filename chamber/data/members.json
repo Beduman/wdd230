@@ -1,0 +1,21 @@
+[
+    {
+        "name":"Bashas",
+        "address":"5567 W Fake Ln",
+        "phone":"520 877 1900",
+        "img":"",
+        "url":"https://www.bashas.com/",
+        "description":"Your local grocery store",
+        "membership": "gold"
+    }
+,
+    {
+        "name":"AZ Tech",
+        "address":"789 Small St",
+        "phone":"520 877 1901",
+        "img":"",
+        "url":"www.thisisafakewebsite.com",
+        "description":"Find electronics or get help with your computer",
+        "membership": "silver"
+    }
+]
