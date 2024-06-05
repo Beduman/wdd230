@@ -1,4 +1,4 @@
-const url = 'https://api.openweathermap.org/data/2.5/weather?lat=33&lon=112&units=imperial&appid=df85fd3eae7d9b8211a7c6efca0497ad'
+const url = 'https://api.openweathermap.org/data/2.5/weather?lat=33&lon=-112&units=imperial&appid=df85fd3eae7d9b8211a7c6efca0497ad'
 
 // select HTML elements in the document
 

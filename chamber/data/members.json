@@ -6,7 +6,7 @@
         "img":"https://www.bashas.com/wp-content/uploads/2024/05/Bashas_logo_Color_CMYK.png",
         "url":"https://www.bashas.com/",
         "description":"Your local grocery store",
-        "membership": "gold"
+        "membership":"gold"
     }
     ,
     {
@@ -16,17 +16,17 @@
         "img":"",
         "url":"www.thisisafakewebsite",
         "description":"Find electronics or get help with your computer",
-        "membership": "silver"
+        "membership":"silver"
     }
     ,
     {
         "name":"Walmart",
         "address":"226 N herald ave",
         "phone":"981 234 2313",
-        "img":"",
+        "img":"images/walmart.webp",
         "url":"https://www.walmart.com/",
         "description":"The supermarket in town",
-        "membership": "bronze"
+        "membership":"bronze"
     }
     ,
     {
@@ -36,7 +36,7 @@
         "img":"https://www.thedukegolf.com/wp-content/uploads/sites/8817/2023/04/cropped-logo-white-4.png",
         "url":"https://www.thedukegolf.com/",
         "description":"Golfing in the Rancho El Dorado neighborhood",
-        "membership": "Gold"
+        "membership":"Gold"
     }
     ,
     {
