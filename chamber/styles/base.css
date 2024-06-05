@@ -39,6 +39,10 @@ h1 {
     margin: 10px;
     flex: 1;
 }
+.eventsCard li{
+    text-align: left;
+    margin: 7px;
+}
 .spotlightCard{
     border: 5px solid #9395d3;
     margin: 10px;
