@@ -1,8 +1,8 @@
-const url = "https://beduman.github.io/wdd230/chamber/data/members.json";
+const memberData = "https://beduman.github.io/wdd230/chamber/data/members.json";
 
 async function getData() {
 try {
-  const response = await fetch(url);  
+  const response = await fetch(memberData);  
   const data = await response.json();
   displayMembers(data);
   console.log(data)
