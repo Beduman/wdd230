@@ -31,6 +31,8 @@ getData()
                 
                 const image = document.createElement("img")
                 image.src = member.img;
+                image.alt = member.name;
+                image.loading = "lazy";
 
                 const url = document.createElement("p");
                 url.innerHTML = `<a href="${member.url}" target="_blank">${member.url}</a>`;

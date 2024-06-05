@@ -36,10 +36,16 @@
         "img":"https://www.thedukegolf.com/wp-content/uploads/sites/8817/2023/04/cropped-logo-white-4.png",
         "url":"https://www.thedukegolf.com/",
         "description":"Golfing in the Rancho El Dorado neighborhood",
-        "membership":"Gold"
+        "membership":"gold"
     }
     ,
     {
-
+        "name":"Brooklyn Boys",
+        "address":"8416 E Watson St",
+        "phone":"480 232 5623",
+        "img":"https://www.thedukegolf.com/wp-content/uploads/sites/8817/2023/04/cropped-logo-white-4.png",
+        "url":"https://locations.nativegrillandwings.com/ll/US/AZ/Maricopa/21164-North-John-Wayne-Parkway",
+        "description":"Golfing in the Rancho El Dorado neighborhood",
+        "membership":"gold"
     }
 ]
