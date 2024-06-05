@@ -1,4 +1,4 @@
-const url = "data/members.json";
+const url = "https://beduman.github.io/wdd230/chamber/data/members.json";
 
 async function getData() {
 try {
