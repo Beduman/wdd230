@@ -5,7 +5,6 @@ try {
   const response = await fetch(memberData);  
   const data = await response.json();
   displayMembers(data);
-  console.log(data)
     }
     catch (error) {
         console.error("Error:", error);
